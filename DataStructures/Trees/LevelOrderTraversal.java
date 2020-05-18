@@ -12,14 +12,14 @@ public class LevelOrderTraversal {
         }
     }
 
-    // Root of the Binary Tree
+    // Root of  Binary Tree 
     Node root;
 
     public LevelOrderTraversal() {
         root = null;
     }
 
-    /* function to print level order traversal of tree*/
+    /* function to print level order traversal of the tree*/
     void printLevelOrder() {
         int h = height(root);
         int i;
